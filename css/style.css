@@ -1,0 +1,146 @@
+/* reset css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*  navbar */
+
+.navbar {
+    /* background: red; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+/* left side navbar */
+
+.navLeftContainer {
+    display: flex;
+    /* width: 50%; */
+    /* background-color: green; */
+    align-items: center;
+    justify-content: space-around;
+    /* margin-right: 10rem; */
+}
+
+.navLeftContainer>img,
+p {
+    margin: 0px 10px;
+}
+
+.navLogo {
+    height: 50px;
+    width: 50px;
+    /* display: inline-block; */
+}
+
+
+/* end left side navbar */
+
+
+/* right side navbar */
+
+.navRightContainer {
+    /* height: 100%; */
+    /* background: cyan; */
+    /* width: 20%; */
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+}
+
+.btnPublish {
+    background: rgba(27, 137, 23, 0.849) !important;
+    /* border-color: rgb(26, 137, 23) !important; */
+    border: none !important;
+    color: white !important;
+    font-size: 1rem !important;
+}
+
+.navIcons {
+    cursor: pointer;
+    font-size: 22px;
+    margin: 0px 13px;
+}
+
+.userLogo {
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 50%;
+    /* background: pinko; */
+    margin: 0px 10px;
+}
+
+
+/* end right side navbar */
+
+
+/* Start container */
+
+.container {
+    /* background: red; */
+    width: 80%;
+    margin: 1rem auto;
+}
+
+
+/* End container */
+
+
+/* Start content */
+
+.content {
+    font-size: 1.3rem;
+}
+
+
+/* End content */
+
+
+/* Start Main section */
+
+.mainBlog {
+    padding: 20px;
+    /* background: red; */
+}
+
+.title {
+    width: 100%;
+    margin: 15px 0;
+    outline: none;
+    padding: 10px 0;
+    padding-left: 20px;
+    font-size: 1.5rem;
+    color: grey;
+    border: none;
+    border-left: 2px solid grey;
+}
+
+.blogContent {
+    /* background: red; */
+    padding: 12px;
+    border-left: 2px solid grey;
+    outline: none;
+    color: grey;
+}
+
+
+/* End Main section */
+
+
+/* Utility classes */
+
+.btn {
+    padding: 9px 19px !important;
+    border-radius: 21px !important;
+    cursor: pointer !important;
+}
+
+
+/* End Utility classes */

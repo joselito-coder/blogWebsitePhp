@@ -1,0 +1,101 @@
+.fab {
+    position: fixed;
+    bottom: 32px;
+    right: 32px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background: red;
+    box-shadow: 1px 2px 4px grey;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.fab:hover {
+    cursor: pointer;
+}
+
+
+
+.fab:hover img {
+    width: 45%;
+    transform: rotate(45deg);
+    transition: 0.4s;
+}
+.fab img {
+    width: 45%;
+    transform: rotate(0deg);
+    transition: 0.4s;
+}
+
+.fabBox {
+    position: fixed;
+    bottom: 0px;
+    right: 7px;
+    height: 290px;
+    transition-delay: 0.3s;
+    width: 80px;
+    transition: 0.5s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+    justify-content: center;
+
+}
+
+.fabBox img {
+    height: 20px;
+    width: 30px;
+}
+
+.item {
+    overflow: hidden;
+    border-radius: 50%;
+    transition: 0.4s ease-in;
+    margin: 2px 0px;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 1px 3px grey;
+
+}
+
+
+.item1 {
+    transition-delay: 0.2s;
+    background: rgb(71, 191, 58);
+}
+
+.item2 {
+    transition-delay: 0.2s;
+    background: rgb(230, 45, 45);
+}
+
+/* 
+.item1{
+    transition-delay: 0.2s;
+    background: blue;
+}
+ */
+
+ .hidden{
+     display: none;
+ }
+ 
+
+.short {
+    height:0px !important;
+}
+
+.tall {
+    height: 290px !important;
+}
